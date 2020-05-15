@@ -89,6 +89,10 @@ def play(board)
   until over?(board)
     turn(board)
   end
+  if win?(board)
+    puts "Congratulations #{current_player(board)}"
+  else
+    puts "Draw"
 end
 
 def move(board, index, value)
