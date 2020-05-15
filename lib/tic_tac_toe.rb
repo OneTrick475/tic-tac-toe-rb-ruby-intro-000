@@ -93,6 +93,7 @@ def play(board)
     puts "Congratulations #{current_player(board)}"
   else
     puts "Draw"
+  end
 end
 
 def move(board, index, value)
