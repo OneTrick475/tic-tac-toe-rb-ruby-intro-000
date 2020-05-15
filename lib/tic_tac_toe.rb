@@ -91,6 +91,6 @@ def play(board)
   end
 end
 
-def move(board, index, value = "X")
+def move(board, index, value)
   board[index] = value
 end
